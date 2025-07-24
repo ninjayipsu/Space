@@ -13,9 +13,13 @@ body {
     width: 80%;
     max-width: 700px;
     padding: 2em;
-    border: 2px solid #660033;
+    border: 4px solid #660033;
     background-color: rgba(20, 0, 20, 0.8);
     box-shadow: 0 0 15px #990099;
+}
+
+.container h1 {
+    font-size: 40px;
 }
 
 nav a {
@@ -27,4 +31,106 @@ nav a {
 
 nav a:hover {
     color: #ff66cc;
+}
+
+.MoreInfo {
+    color: #0a0a0a;
+    box-shadow: 
+    0 0 5px rgb(193, 12, 133),   
+    0 0 10px rgb(196, 58, 193),  
+    0 0 20px rgb(237, 41, 215), 
+    0 0 40px rgb(192, 7, 199), 
+    0 0 80px rgb(164, 11, 93); 
+    margin: 3em auto;
+    width: 80%;
+    max-width: 1000px;
+    padding: 2em;
+    border: 3px solid #cb1771;
+    background-image: url("./background2.png")
+
+}
+
+.BigHeader {
+    position: relative;
+    text-align: left;
+    margin-left: 10px;
+    margin-top: -10px; 
+    font-size:70px ;
+    color: #fab637; 
+}
+
+.UnderHeader {
+    position: relative;
+    text-align: left;
+    margin-top: -40px;
+    margin-left: 10px;
+    font-size:22px ;
+}
+
+.UnderHeader2 {
+    position: relative;
+    text-align: left;
+    font-size:22px ;
+    margin-left: 10px;
+}
+
+.UnderHeader3 {
+    position: relative;
+    text-align: left;
+    font-size:22px ;
+    margin-left: 10px;
+    margin-top: 40px;
+}
+
+.WelcomeImg {
+    position: relative;
+    text-align: right;
+    margin-top: -250px;
+}
+
+.SocialMedia {
+    position: relative;
+    text-align: left;
+    margin-left: -10px;
+    margin-top: -10px;
+}
+
+.SocialMedia2 {
+    position: relative;
+    text-align: left;
+    margin-left: 140px;
+    margin-top: -88px;
+}
+
+.SocialMediaIcons {
+    padding:10px 0px 12px 22px;
+
+}
+
+.SocialMediaIcons img {
+    max-height:30px ;
+    padding-right:12px ;
+}
+
+
+.Stamps {
+    position: relative;
+    text-align: right;
+    margin-top: -25px;
+    margin-right: -15px;
+}
+
+.Stamps img {
+    max-height:64px ;
+    padding-right:5px ;
+}
+
+.UnderConstruction {
+    display: block;
+}
+
+.ViewedComputer {
+    position: relative;
+    text-align: left;
+    margin-left: 10px;
 }

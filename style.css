@@ -134,3 +134,46 @@ nav a:hover {
     text-align: left;
     margin-left: 10px;
 }
+
+
+.blog-wrapper {
+    padding: 20px;
+    margin: 30px auto;
+    max-width: 700px;
+    background: rgba(255, 192, 255, 0.05);
+    border: 2px dashed #ff66cc;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #ff00ff80;
+    color: #fff;
+    font-family: 'Courier New', monospace;
+  }
+  
+  .blog-title {
+    text-align: center;
+    font-size: 28px;
+    color: #ffccff;
+    text-shadow: 0 0 5px #ff00cc;
+    margin-bottom: 30px;
+  }
+  
+  .blog-entry {
+    margin-bottom: 40px;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.03);
+    border: 1px dotted #ff99ff;
+    border-radius: 8px;
+  }
+  
+  .blog-entry h2 {
+    color: #ffcc00;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-shadow: 0 0 2px #cc00ff;
+  }
+  
+  .blog-entry p {
+    font-size: 16px;
+    color: #eeeeee;
+    line-height: 1.5;
+    text-align: left;
+  }
